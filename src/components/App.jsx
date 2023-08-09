@@ -48,7 +48,7 @@ class App extends Component {
               <Notification message="no feedback give" />
             ) : (
               <Statistics feedback={this.state} />
-            )};
+            )}
           </Section>
         </div>
       )
